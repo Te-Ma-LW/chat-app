@@ -17,3 +17,17 @@
  * {
    box-sizing: border-box;
  }
+
+ .main {
+   display: flex;
+ }
+
+ .sidebar {
+   width: 300px;
+   background-color: #253141;
+ }
+
+ .message {
+   width: calc(100vw - 300px);
+   background-color: #ffffff;
+ }
